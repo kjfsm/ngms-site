@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="ngms.css" />
+  <title>NagoyaGameMusicStrings</title>
+  <script>
+    function init(){
+      var birthdate = new Date(2013, 10, 17);
+      var today = new Date();
+      var age = calcAge(birthdate, today);
+      var elem = document.getElementById("level");
+      elem.innerText = age;
+    }
+    function calcAge(birthdate, targetdate) {
+      var age = targetdate.getFullYear() - birthdate.getFullYear();
+      var birthday = new Date(targetdate.getFullYear(), birthdate.getMonth(), birthdate.getDate());
+      if (targetdate < birthday) {
+        age--;
+      }
+      return age;
+    }
+  </script>
+  </head>
+  <body onload="init()">
+  <div id="pagebody">
+    <!-- ヘッダ -->
+    <div id="header">
+      <h1><a href="main.html">Nagoya GameMusic Strings</a></h1>
+    </div>
+
+    <!-- メインメニュー -->
+    <ul id="menu">
+      <li class="menu-item" id="menu01"><a href="main.html">トップ</a></li>
+      <li class="menu-item" id="menu02"><a href="about.html">当団について</a></li>
+      <li class="menu-item" id="menu03"><a href="concert/concert_main.html">演奏会情報</a></li>
+      <li class="menu-item" id="menu04"><a href="contents.html">演奏動画</a></li>
+      <li class="menu-item" id="menu05"><a href="information.html">問い合わせ</a></li>
+    </ul>
+
+      <!-- コンテンツ（中央と右の2カラム） -->
+      <div id="content">
+        <!-- ニュース（中央カラム） -->
+        <div id="news">
+          <div class="about_status">
+            <h2>当団について</h2>
+            <img src="img/ngms-rogo.png" width="135" height="135" style="float: left"/>
+            <h3>NGMS（名古屋ゲームミュージックストリングス）</h3>
+            <p>ゲーム音楽専門の弦楽合奏団体</p>
+            <p>LV　<span id="level"/></p>
+            <p>主な生息地　主に名古屋市内（現状は大高、中川、瑞穂など）</p>
+          </div>
+          <hr />
+          <p>ゲーム音楽をこよなく愛する　　東海地方の有志を中心に設立された。</p>
+          <p>NGME（名古屋ゲームミュージックアンサンブル）という　　吹奏楽団の姉妹団体を持っている。</p>
+          <p>現在、同じ志を持った仲間を募集している。</p>
+          <h3>来たれ、ゲーム音楽愛好家！</h3>
+          <hr />
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
