@@ -26,10 +26,7 @@ div#pagebody {
 div#header {
 	height:77px;
 	margin-top: 10px;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -54,10 +51,7 @@ li.menu-item {
 	display:inline;
 	list-style-type:none;
 	margin-right: 5px;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -117,10 +111,7 @@ ul#submenu_body li a:hover {
 div#content {
 	width:796px; margin:10px 20px 10px 0px;
 	float:left;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
