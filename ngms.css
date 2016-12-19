@@ -26,18 +26,16 @@ div#pagebody {
 div#header {
 	height:77px;
 	margin-top: 10px;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
 h1 {
-	padding:20px 0px 0px 30px;
 	font-family:Arial, Helvetica, sans-serif;
+	line-height: 77px;
+	padding: 0 30px;
 }
 h1 a {text-decoration:none;}
 
@@ -54,10 +52,7 @@ li.menu-item {
 	display:inline;
 	list-style-type:none;
 	margin-right: 5px;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -66,7 +61,8 @@ li.menu-item {
 
 ul#menu a {
 	display:block;
-	padding-top:4px; text-align:center;
+	line-height: 42px;
+	text-align:center;
 	text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif;
 }
@@ -117,10 +113,7 @@ ul#submenu_body li a:hover {
 div#content {
 	width:796px; margin:10px 20px 10px 0px;
 	float:left;
-	background-color:#0000cd;
-	filter:alpha(opacity=70);
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+	background-color: rgba(0, 0, 205, 0.7);
 	border:5px solid #fff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
