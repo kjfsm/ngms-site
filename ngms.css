@@ -33,7 +33,6 @@ div#header {
   -moz-border-radius: 10px;
 }
 h1 {
-	font-family:Arial, Helvetica, sans-serif;
 	line-height: 77px;
 	padding: 0 30px;
 }
@@ -67,7 +66,6 @@ ul#menu a {
 	line-height: 42px;
 	text-align:center;
 	text-decoration:none;
-	font-family:Arial, Helvetica, sans-serif;
 }
 
 /*============================================
@@ -154,4 +152,49 @@ p.strong {
 	margin:10px 0px 10px 10px;
 	text-indent:10px;
 
+}
+
+/*
+	JFドットM+12
+	http://jikasei.me/font/jf-dotfont/
+	改変・再配布・商業的利用に制限なし。
+
+	http://brian.hatenablog.jp/entry/how-to-set-web-fonts
+	の方法に従い、サブセットの作成と WOFF への変換を行った。
+*/
+
+/* JIS 第二水準 (オリジナル) */
+@font-face {
+	font-family: "JF-Dot-MPlus12";
+	src:
+		url("fonts/JF-Dot-MPlus12.woff2") format('woff2'),
+		url("fonts/JF-Dot-MPlus12.woff") format('woff');
+}
+
+/* JIS 第一水準 */
+@font-face {
+	font-family: "JF-Dot-MPlus12-JIS1";
+	src:
+		url("fonts/JF-Dot-MPlus12-JIS1.woff2") format('woff2'),
+		url("fonts/JF-Dot-MPlus12-JIS1.woff") format('woff');
+}
+
+/* 漢字なし */
+@font-face {
+	font-family: "JF-Dot-MPlus12-No-Kanji";
+	src:
+		url("fonts/JF-Dot-MPlus12-No-Kanji.woff2") format('woff2'),
+		url("fonts/JF-Dot-MPlus12-No-Kanji.woff") format('woff');
+}
+
+/*
+	ドットフォント使用する箇所に付与するクラス。
+	必要な文字種に合わせて、font-family を 1 つだけ選択すること。
+	Chrome 55 では、使用していない Web フォントはダウンロードされないことを確認している。
+*/
+.dot-font {
+	/* font-family: "JF-Dot-MPlus12"; */
+	font-family: "JF-Dot-MPlus12-JIS1";
+	/* font-family: "JF-Dot-MPlus12-No-Kanji"; */
+	letter-spacing: 0.167em; /* 1/12 = 2 dot */
 }
