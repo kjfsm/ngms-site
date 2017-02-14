@@ -194,7 +194,7 @@ p.strong {
 */
 .dot-font {
 	/* font-family: "JF-Dot-MPlus12"; */
-	font-family: "JF-Dot-MPlus12-JIS1";
-	/* font-family: "JF-Dot-MPlus12-No-Kanji"; */
+	/* font-family: "JF-Dot-MPlus12-JIS1"; */
+	font-family: "JF-Dot-MPlus12-No-Kanji";
 	letter-spacing: 0.167em; /* 1/12 = 2 dot */
 }
