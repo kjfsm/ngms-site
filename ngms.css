@@ -154,6 +154,11 @@ p.strong {
 
 }
 
+p.imgright{
+	float: right;
+	margin-right: 4em;
+}
+
 /*
 	JFドットM+12
 	http://jikasei.me/font/jf-dotfont/
