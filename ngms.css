@@ -154,8 +154,8 @@ p.strong {
 
 }
 
-p.imgright{
-	float: right;
+p.thumbfloat{
+	float: left;
 	margin-right: 4em;
 }
 
