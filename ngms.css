@@ -119,6 +119,7 @@ div#content {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+	padding-bottom: 5px;
 }
 
 div#news {
