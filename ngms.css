@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*============================================
 ============================================*/
 
@@ -156,7 +156,7 @@ h2 {
   font-size: 20px;
   margin-bottom: 10px;
   padding-left: 25px;
-  border-bottom: solid 1px #cccccc;
+  /* border-bottom: solid 1px #cccccc; */
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -164,30 +164,25 @@ h2 {
 h3 {
   font-size: 18px;
   margin: 20px 0px 10px 10px;
-  text-indent: 10px;
+  /* text-indent: 10px; */
 }
 
 p {
-  font-size: 14;
-  margin: 6px 0px 0px 2em;
-  text-indent: 10px;
+  margin: 6px 0px 6px 2em;
+  /* text-indent: 0px; */
 }
 
 hr {
-  height: 1px;
   border: solid 1px #cccccc;
-  margin-bottom: 30px;
-}
-
-p.strong {
-  font-size: 18px;
-  margin: 10px 0px 10px 10px;
-  text-indent: 10px;
 }
 
 p.thumbfloat {
   float: left;
   margin-right: 4em;
+}
+
+ul#list {
+  padding: 0px 0px 0px 60px;
 }
 
 /*
