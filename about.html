@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="ngms.css" />
   <title>名古屋ゲームミュージックストリングス</title>
   <script>
-    function init(){
+    function init() {
       var birthdate = new Date(2013, 10, 17);
       var today = new Date();
       var age = calcAge(birthdate, today);
@@ -25,48 +26,64 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106926727-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
+    function gtag() { dataLayer.push(arguments) };
     gtag('js', new Date());
 
     gtag('config', 'UA-106926727-1');
   </script>
-  </head>
-  <body onload="init()">
+</head>
+
+<body onload="init()">
   <div id="pagebody">
     <!-- ヘッダ -->
     <div id="header" class="dot-font">
-      <h1><a href="index.html">Nagoya Game Music Strings</a></h1>
+      <h1>
+        <a href="index.html">Nagoya Game Music Strings</a>
+      </h1>
     </div>
 
     <!-- メインメニュー -->
     <ul id="menu" class="dot-font">
-      <li class="menu-item" id="menu01"><a href="index.html">トップ</a></li>
-      <li class="menu-item" id="menu02"><a href="about.html">NGMSって？</a></li>
-      <li class="menu-item" id="menu03"><a href="concert/concert-info.html">コンサート</a></li>
-      <li class="menu-item" id="menu04"><a href="contents.html">どうが</a></li>
-      <li class="menu-item" id="menu05"><a href="information.html">といあわせ</a></li>
+      <li class="menu-item" id="menu01">
+        <a href="index.html">トップ</a>
+      </li>
+      <li class="menu-item" id="menu02">
+        <a href="about.html">NGMSって？</a>
+      </li>
+      <li class="menu-item" id="menu03">
+        <a href="concert/concert-info.html">コンサート</a>
+      </li>
+      <li class="menu-item" id="menu04">
+        <a href="contents.html">どうが</a>
+      </li>
+      <li class="menu-item" id="menu05">
+        <a href="information.html">といあわせ</a>
+      </li>
     </ul>
 
-      <!-- コンテンツ（中央と右の2カラム） -->
-      <div id="content">
-        <!-- ニュース（中央カラム） -->
-        <div id="news">
-          <div class="about_status">
-            <h2>楽団紹介</h2>
-            <img src="img/ngms-rogo.png" width="135" height="135" style="float: left"/>
-            <h3>NGMS（名古屋ゲームミュージックストリングス）</h3>
-            <p>ゲーム音楽専門の弦楽合奏団体</p>
-            <p>LV　<span id="level"/></p>
-            <p>主な生息地　主に名古屋市内（現状は大高、中川、瑞穂など）</p>
-          </div>
-          <hr />
-          <p>ゲーム音楽をこよなく愛する　　東海地方の有志を中心に設立された。</p>
-          <p>NGME（名古屋ゲームミュージックアンサンブル）という　　吹奏楽団の姉妹団体を持っている。</p>
-          <p>現在、同じ志を持った仲間を募集している。</p>
-          <h3>来たれ、ゲーム音楽愛好家！</h3>
+    <!-- コンテンツ（中央と右の2カラム） -->
+    <div id="content">
+      <!-- ニュース（中央カラム） -->
+      <div id="news">
+        <div class="about_status">
+          <h2>楽団紹介</h2>
+          <img src="img/ngms-rogo.png" width="135" height="135" style="float: left" />
+          <h3>NGMS（名古屋ゲームミュージックストリングス）</h3>
+          <p>ゲーム音楽専門の弦楽合奏団体</p>
+          <p>LV
+            <span id="level" />
+          </p>
+          <p>主な生息地　主に名古屋市内（現状は大高、中川、瑞穂など）</p>
         </div>
+        <hr />
+        <p>ゲーム音楽をこよなく愛する　　東海地方の有志を中心に設立された。</p>
+        <p>NGME（名古屋ゲームミュージックアンサンブル）という　　吹奏楽団の姉妹団体を持っている。</p>
+        <p>現在、同じ志を持った仲間を募集している。</p>
+        <h3>来たれ、ゲーム音楽愛好家！</h3>
       </div>
-
     </div>
-  </body>
+
+  </div>
+</body>
+
 </html>
