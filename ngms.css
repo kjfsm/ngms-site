@@ -27,7 +27,7 @@ div#header {
 	height:77px;
 	margin-top: 10px;
 	background-color: rgba(0, 0, 205, 0.7);
-	border:5px solid #fff;
+	border:5px solid #ffffff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -51,7 +51,7 @@ li.menu-item {
 	list-style-type:none;
 	margin-right: 5px;
 	background-color: rgba(0, 0, 205, 0.7);
-	border:5px solid #fff;
+	border:5px solid #ffffff;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
