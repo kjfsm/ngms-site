@@ -31,6 +31,7 @@ div#pagebody {
 div#header {
   height: 77px;
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: rgba(0, 0, 205, 0.7);
   border: 5px solid #ffffff;
   border-radius: 10px;
@@ -40,7 +41,10 @@ div#header {
 
 h1 {
   line-height: 77px;
-  padding: 0 30px;
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
 }
 
 h1 a {
@@ -54,6 +58,7 @@ h1 a {
 ul#menu {
   font-weight: bold;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 li.menu-item {
@@ -134,10 +139,11 @@ ul#submenu_body li a:hover {
 
 div#content {
   width: 790px;
-  margin: 10px 20px 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   float: left;
   background-color: rgba(0, 0, 205, 0.7);
-  border: 5px solid #fff;
+  border: 5px solid #ffffff;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -147,15 +153,17 @@ div#content {
 div#news {
   width: 98%;
   margin-left: 10px;
-  padding-top: 10px;
+  margin-right: 10px;
   float: left;
   background-repeat: no-repeat;
 }
 
 h2 {
   font-size: 20px;
+  margin-top: 10px;
+  margin-right: 0px;
   margin-bottom: 10px;
-  padding-left: 25px;
+  margin-left: 10px;
   /* border-bottom: solid 1px #cccccc; */
   background-repeat: no-repeat;
   background-position: left center;
@@ -163,22 +171,36 @@ h2 {
 
 h3 {
   font-size: 18px;
-  margin: 20px 0px 10px 10px;
-  /* text-indent: 10px; */
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 p {
-  margin: 6px 0px 6px 2em;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
   /* text-indent: 0px; */
 }
 
 hr {
   border: solid 1px #cccccc;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-p.thumbfloat {
+div.floatimg {
+  width: 210px;
   float: left;
-  margin-right: 4em;
+  margin-right: 25px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+div.floattext {
+  overflow: hidden;
 }
 
 ul#list {
