@@ -1,206 +1,252 @@
-﻿@charset "UTF-8";
-
+@charset "UTF-8";
 /*============================================
 ============================================*/
+
 * {
-	margin:0; padding:0;
-	line-height:1.5;
-	color:#ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #ffffff;
 }
+
 body {
-	text-align:center;
-	background: url("img/back.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  text-align: center;
+  background: url("img/back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 div#pagebody {
-	width:800px; margin:0 auto;
-	text-align:left;
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 /*============================================
-	ヘッダー
+  ヘッダー
 ============================================*/
+
 div#header {
-	height:77px;
-	margin-top: 10px;
-	background-color: rgba(0, 0, 205, 0.7);
-	border:5px solid #fff;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
+  height: 77px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 205, 0.7);
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
+
 h1 {
-	line-height: 77px;
-	padding: 0 30px;
+  line-height: 77px;
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
 }
-h1 a {text-decoration:none;}
+
+h1 a {
+  text-decoration: none;
+}
 
 /*============================================
-	メニュー
+  メニュー
 ============================================*/
+
 ul#menu {
-	font-weight:bold;
-	margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 li.menu-item {
-	width: 146px; height: 42px;
-	float:left;
-	display:inline;
-	list-style-type:none;
-	margin-right: 5px;
-	background-color: rgba(0, 0, 205, 0.7);
-	border:5px solid #fff;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
+  width: 146px;
+  height: 42px;
+  float: left;
+  list-style-type: none;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 205, 0.7);
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
+
 li.menu-item:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 ul#menu a {
-	display:block;
-	line-height: 42px;
-	text-align:center;
-	text-decoration:none;
+  display: block;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*============================================
-	サブメニュー　現未使用
+  サブメニュー　現未使用
 ============================================*/
+
 div#submenu {
-	width:160px;
-	margin:10px 10px 10px 25px;
-	display:inline;
-	float:left;
+  width: 160px;
+  margin: 10px 10px 10px 25px;
+  float: left;
 }
 
 div#submenu_header {
-	height:26px; padding:4px 0px 0px 0px;
-	background-image:url("images/bg_submenu_header.gif");
-	background-repeat:no-repeat; background-position:top;
-	background-color:#cccccc;
-	font-size:90%; font-weight:bold; text-align:center;
+  height: 26px;
+  padding: 4px 0px 0px 0px;
+  background-image: url("images/bg_submenu_header.gif");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #cccccc;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
 }
 
 ul#submenu_body {
-	padding-bottom:6px;
-	background-image:url("images/bg_submenu_footer.gif");
-	background-repeat:no-repeat; background-position:bottom;
-	background-color:#cccccc;
+  padding-bottom: 6px;
+  background-image: url("images/bg_submenu_footer.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #cccccc;
 }
+
 ul#submenu_body li {
-	font-size:90%;
-	list-style-type:none;
-	display:inline;
+  font-size: 90%;
+  list-style-type: none;
+  display: inline;
 }
+
 ul#submenu_body li a {
-	display:block;
-	margin:0px 4px 0px 4px;
-	padding:2px 0px 2px 20px;
-	background-color:#eeeeee;
-	text-decoration:none;
+  display: block;
+  margin: 0px 4px 0px 4px;
+  padding: 2px 0px 2px 20px;
+  background-color: #eeeeee;
+  text-decoration: none;
 }
+
 ul#submenu_body li a:hover {
-	background-color:#ffffff;
+  background-color: #ffffff;
 }
 
 /*============================================
-	中央
+  中央
 ============================================*/
+
 div#content {
-	width:790px; margin:10px 20px 10px 0px;
-	float:left;
-	background-color: rgba(0, 0, 205, 0.7);
-	border:5px solid #fff;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
+  width: 790px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: rgba(0, 0, 205, 0.7);
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-	padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 div#news {
-	width:98%; margin-left:10px; padding-top:10px;
-	float:left;
-	background-repeat:no-repeat;
+  width: 98%;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  background-repeat: no-repeat;
 }
 
 h2 {
-	font-size:20px; margin-bottom:10px; padding-left:25px;
-	border-bottom:solid 1px #cccccc;
-	background-repeat:no-repeat; background-position:left center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /* border-bottom: solid 1px #cccccc; */
+  background-repeat: no-repeat;
+  background-position: left center;
 }
+
 h3 {
-	font-size:18px;
-	margin:20px 0px 10px 10px;
-	text-indent:10px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
+
 p {
-	font-size:14;
-	margin:6px 0px 0px 2em;
-	text-indent:10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /* text-indent: 0px; */
 }
+
 hr {
-	height:1px;
-	border:solid 1px #cccccc;
-	margin-bottom:30px;
-}
-p.strong {
-	font-size: 18px;
-	margin:10px 0px 10px 10px;
-	text-indent:10px;
-
+  border: solid 1px #cccccc;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-p.thumbfloat{
-	float: left;
-	margin-right: 4em;
+div.floatimg {
+  width: 210px;
+  float: left;
+  margin-right: 25px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+div.floattext {
+  overflow: hidden;
+}
+
+ul#list {
+  padding: 0px 0px 0px 60px;
 }
 
 /*
-	JFドットM+12
-	http://jikasei.me/font/jf-dotfont/
-	改変・再配布・商業的利用に制限なし。
+  JFドットM+12
+  http://jikasei.me/font/jf-dotfont/
+  改変・再配布・商業的利用に制限なし。
 
-	http://brian.hatenablog.jp/entry/how-to-set-web-fonts
-	の方法に従い、サブセットの作成と WOFF への変換を行った。
+  http://brian.hatenablog.jp/entry/how-to-set-web-fonts
+  の方法に従い、サブセットの作成と WOFF への変換を行った。
 */
 
 /* JIS 第二水準 (オリジナル) */
+
 @font-face {
-	font-family: "JF-Dot-MPlus12";
-	src:
-		url("fonts/JF-Dot-MPlus12.woff2") format('woff2'),
-		url("fonts/JF-Dot-MPlus12.woff") format('woff');
+  font-family: "JF-Dot-MPlus12";
+  src: url("fonts/JF-Dot-MPlus12.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12.woff") format('woff');
 }
 
 /* JIS 第一水準 */
+
 @font-face {
-	font-family: "JF-Dot-MPlus12-JIS1";
-	src:
-		url("fonts/JF-Dot-MPlus12-JIS1.woff2") format('woff2'),
-		url("fonts/JF-Dot-MPlus12-JIS1.woff") format('woff');
+  font-family: "JF-Dot-MPlus12-JIS1";
+  src: url("fonts/JF-Dot-MPlus12-JIS1.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12-JIS1.woff") format('woff');
 }
 
 /* 漢字なし */
+
 @font-face {
-	font-family: "JF-Dot-MPlus12-No-Kanji";
-	src:
-		url("fonts/JF-Dot-MPlus12-No-Kanji.woff2") format('woff2'),
-		url("fonts/JF-Dot-MPlus12-No-Kanji.woff") format('woff');
+  font-family: "JF-Dot-MPlus12-No-Kanji";
+  src: url("fonts/JF-Dot-MPlus12-No-Kanji.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12-No-Kanji.woff") format('woff');
 }
 
 /*
-	ドットフォント使用する箇所に付与するクラス。
-	必要な文字種に合わせて、font-family を 1 つだけ選択すること。
-	Chrome 55 では、使用していない Web フォントはダウンロードされないことを確認している。
+  ドットフォント使用する箇所に付与するクラス。
+  必要な文字種に合わせて、font-family を 1 つだけ選択すること。
+  Chrome 55 では、使用していない Web フォントはダウンロードされないことを確認している。
 */
+
 .dot-font {
-	/* font-family: "JF-Dot-MPlus12"; */
-	/* font-family: "JF-Dot-MPlus12-JIS1"; */
-	font-family: "JF-Dot-MPlus12-No-Kanji";
-	letter-spacing: 0.167em; /* 1/12 = 2 dot */
+  /* font-family: "JF-Dot-MPlus12"; */
+  /* font-family: "JF-Dot-MPlus12-JIS1"; */
+  font-family: "JF-Dot-MPlus12-No-Kanji";
+  letter-spacing: 0.167em;
+  /* 1/12 = 2 dot */
 }
