@@ -1,0 +1,11 @@
+div#header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+li.menu-item {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div#content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
