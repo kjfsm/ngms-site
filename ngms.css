@@ -10,8 +10,7 @@
 }
 
 body {
-  background-size: cover;
-  background: url("img/back.jpg") no-repeat center center fixed;
+  background: url("img/back.jpg") no-repeat center center / cover fixed;
   font-family: sans-serif;
   text-align: center;
 }
