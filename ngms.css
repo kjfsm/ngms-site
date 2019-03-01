@@ -3,34 +3,31 @@
 ============================================*/
 
 * {
+  color: #ffffff;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  color: #ffffff;
 }
 
 body {
-  text-align: center;
-  background: url("img/back.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background: url("img/back.jpg") no-repeat center center fixed;
   font-family: sans-serif;
+  text-align: center;
 }
 
 #pagebody {
-  width: 800px;
+  box-sizing: border-box;
   margin: 0 auto;
   text-align: left;
-  box-sizing: border-box;
+  width: 800px;
 }
 
 @media (max-width: 576px) {
   #pagebody {
-    width: 100%;
     margin: 0;
     padding: 0 10px;
+    width: 100%;
   }
 }
 
@@ -81,13 +78,11 @@ body {
 ============================================*/
 
 #header {
-  margin-top: 10px;
-  margin-bottom: 10px;
   background-color: rgba(0, 0, 205, 0.7);
-  border: 5px solid #ffffff;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  border: 5px solid #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 10px 25px;
 }
 
@@ -125,23 +120,22 @@ h1 a {
 
 @media (max-width: 576px) {
   #menu {
-    flex-direction: column;
     background-color: rgba(0, 0, 205, 0.7);
-    border: 5px solid #ffffff;
     border-radius: 10px;
+    border: 5px solid #ffffff;
+    flex-direction: column;
     padding: 10px;
   }
 }
 
 .menu-item {
+  background-color: rgba(0, 0, 205, 0.7);
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+  flex: 1;
   height: 42px;
   list-style-type: none;
   margin-right: 5px;
-  background-color: rgba(0, 0, 205, 0.7);
-  border: 5px solid #ffffff;
-  border-radius: 10px;
-  flex-grow: 1;
-  flex: 1;
 }
 
 .menu-item:last-child {
@@ -152,10 +146,10 @@ h1 a {
   .menu-item {
     background: none;
     border: none;
-    text-align: left;
     height: auto;
     margin-bottom: 5px;
     margin-right: 0;
+    text-align: left;
   }
 
   .menu-item:last-child {
@@ -172,8 +166,8 @@ h1 a {
 
 @media (max-width: 576px) {
   #menu a {
-    text-align: left;
     line-height: 1.5;
+    text-align: left;
   }
 }
 
@@ -182,42 +176,42 @@ h1 a {
 ============================================*/
 
 div#submenu {
-  width: 160px;
-  margin: 10px 10px 10px 25px;
   float: left;
+  margin: 10px 10px 10px 25px;
+  width: 160px;
 }
 
 div#submenu_header {
-  height: 26px;
-  padding: 4px 0px 0px 0px;
-  background-image: url("images/bg_submenu_header.gif");
-  background-repeat: no-repeat;
-  background-position: top;
   background-color: #cccccc;
+  background-image: url("images/bg_submenu_header.gif");
+  background-position: top;
+  background-repeat: no-repeat;
   font-size: 90%;
   font-weight: bold;
+  height: 26px;
+  padding: 4px 0px 0px 0px;
   text-align: center;
 }
 
 ul#submenu_body {
-  padding-bottom: 6px;
-  background-image: url("images/bg_submenu_footer.gif");
-  background-repeat: no-repeat;
-  background-position: bottom;
   background-color: #cccccc;
+  background-image: url("images/bg_submenu_footer.gif");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 6px;
 }
 
 ul#submenu_body li {
+  display: inline;
   font-size: 90%;
   list-style-type: none;
-  display: inline;
 }
 
 ul#submenu_body li a {
+  background-color: #eeeeee;
   display: block;
   margin: 0px 4px 0px 4px;
   padding: 2px 0px 2px 20px;
-  background-color: #eeeeee;
   text-decoration: none;
 }
 
@@ -230,13 +224,11 @@ ul#submenu_body li a:hover {
 ============================================*/
 
 #content {
-  margin-top: 10px;
-  margin-bottom: 10px;
   background-color: rgba(0, 0, 205, 0.7);
-  border: 5px solid #ffffff;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  border: 5px solid #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 15px 20px 20px;
 }
 
@@ -251,10 +243,10 @@ div#news {
 }
 
 h2 {
+  background-position: left center;
+  background-repeat: no-repeat;
   font-size: 20px;
   margin: 10px 0;
-  background-repeat: no-repeat;
-  background-position: left center;
 }
 
 h2:first-child {
@@ -263,8 +255,8 @@ h2:first-child {
 
 h3 {
   font-size: 18px;
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 p {
@@ -272,8 +264,8 @@ p {
 }
 
 hr {
-  margin: 10px 0;
   border: solid 1px #cccccc;
+  margin: 10px 0;
 }
 
 ul#list {
