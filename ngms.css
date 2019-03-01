@@ -279,6 +279,14 @@ ul#list {
   padding: 0px 0px 0px 60px;
 }
 
+.program-main {
+  font-size: 1.2rem;
+}
+
+.program-sub {
+  font-size: 1.1rem;
+}
+
 /*
   JFドットM+12
   http://jikasei.me/font/jf-dotfont/
