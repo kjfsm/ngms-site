@@ -279,6 +279,30 @@ ul#list {
   font-size: 1.1rem;
 }
 
+.alert {
+  border: 3px solid #fff;
+  padding: 1rem;
+}
+
+.alert-error {
+  background-color: lightpink;
+  border-color: red;
+}
+
+.alert-error > *:first-child {
+  margin-top: 0;
+}
+
+.alert-error > *:last-child {
+  margin-bottom: 0;
+}
+
+.alert-error h3,
+.alert-error p,
+.alert-error a {
+  color: red;
+}
+
 /*
   JFドットM+12
   http://jikasei.me/font/jf-dotfont/
