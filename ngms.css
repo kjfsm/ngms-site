@@ -319,6 +319,25 @@ ul#list {
   color: #0c5460;
 }
 
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+
+.alert-warning h3,
+.alert-warning p,
+.alert-warning a {
+  color: #664d03;
+}
+
+.currentConcert-section {
+  margin: 0 0 1.5em 0;
+}
+
+.currentConcert-section-title {
+  margin: 0 0 0.5em 0;
+}
+
 /*
   JFドットM+12
   http://jikasei.me/font/jf-dotfont/
