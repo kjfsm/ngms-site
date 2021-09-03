@@ -325,9 +325,25 @@ ul#list {
 }
 
 .alert-warning h3,
-.alert-warning p,
-.alert-warning a {
+.alert-warning p {
   color: #664d03;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+}
+
+.btn-lg {
+  border-radius: .3rem;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  text-decoration: none;
 }
 
 .currentConcert-section {
