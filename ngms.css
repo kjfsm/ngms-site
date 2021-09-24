@@ -67,6 +67,7 @@ body {
 
 .col-sm {
   margin: 5px 10px;
+  flex-grow: 1;
 }
 
 
@@ -353,6 +354,15 @@ ul#list {
 .currentConcert-section-title {
   margin: 0 0 0.5em 0;
 }
+
+.dl-horizontal {
+  display: flex;
+}
+.dl-horizontal dt,
+.dl-horizontal dd {
+  margin-right: 0.5em;
+}
+
 
 /*
   JFドットM+12
