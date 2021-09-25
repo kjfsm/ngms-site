@@ -347,6 +347,20 @@ ul#list {
   text-decoration: none;
 }
 
+.btn-middle-width {
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 576px) {
+  .btn-middle-width {
+    max-width: 100%;
+  }
+}
+
 .currentConcert-section {
   margin: 0 0 1.5em 0;
 }
