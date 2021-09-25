@@ -67,6 +67,7 @@ body {
 
 .col-sm {
   margin: 5px 10px;
+  flex-grow: 1;
 }
 
 
@@ -346,6 +347,20 @@ ul#list {
   text-decoration: none;
 }
 
+.btn-middle-width {
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 576px) {
+  .btn-middle-width {
+    max-width: 100%;
+  }
+}
+
 .currentConcert-section {
   margin: 0 0 1.5em 0;
 }
@@ -353,6 +368,15 @@ ul#list {
 .currentConcert-section-title {
   margin: 0 0 0.5em 0;
 }
+
+.dl-horizontal {
+  display: flex;
+}
+.dl-horizontal dt,
+.dl-horizontal dd {
+  margin-right: 0.5em;
+}
+
 
 /*
   JFドットM+12
