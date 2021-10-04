@@ -286,6 +286,7 @@ ul#list {
 
 .alert {
   border: 3px solid #fff;
+  border-radius: 3px;
   padding: 1rem;
 }
 
