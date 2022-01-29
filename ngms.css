@@ -67,6 +67,9 @@ body {
 
 .col-sm {
   margin: 5px 10px;
+}
+
+.flex-grow-1 {
   flex-grow: 1;
 }
 
