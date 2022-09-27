@@ -3,7 +3,6 @@
 ============================================*/
 
 * {
-  color: #ffffff;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -15,8 +14,13 @@ b {
 
 body {
   background: url("img/back.jpg") no-repeat center center / cover fixed;
+  color: #ffffff;
   font-family: sans-serif;
   text-align: center;
+}
+
+a {
+  color: #ffffff;
 }
 
 #pagebody {
@@ -348,6 +352,19 @@ ul#list {
 .btn-primary {
   color: #fff;
   background-color: #0d6efd;
+  text-decoration: none;
+}
+
+.btn-outline-warning {
+  border: 1px solid #664d03;
+  color: #664d03;
+  text-decoration: none;
+  transition: background-color .15s;
+}
+
+.btn-outline-warning:hover {
+  border: 1px solid #ffc20c;
+  background-color: #ffc20c;
   text-decoration: none;
 }
 
