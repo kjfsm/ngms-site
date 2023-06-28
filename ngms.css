@@ -77,7 +77,6 @@ a {
   flex-grow: 1;
 }
 
-
 @media (max-width: 576px) {
   .col-sm {
     flex-direction: column;
@@ -102,7 +101,6 @@ a {
     padding: 5px 10px;
   }
 }
-
 
 h1 {
   font-size: 2rem;
@@ -316,7 +314,6 @@ ul#list {
   color: red;
 }
 
-
 .alert-info {
   background-color: #d1ecf1;
   border-color: #bee5eb;
@@ -344,8 +341,8 @@ ul#list {
 }
 
 .btn-lg {
-  border-radius: .3rem;
-  padding: .5rem 1rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
 }
 
@@ -359,7 +356,7 @@ ul#list {
   border: 1px solid #664d03;
   color: #664d03;
   text-decoration: none;
-  transition: background-color .15s;
+  transition: background-color 0.15s;
 }
 
 .btn-outline-warning:hover {
@@ -374,7 +371,6 @@ ul#list {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 @media (max-width: 576px) {
   .btn-middle-width {
@@ -399,7 +395,6 @@ ul#list {
   margin-right: 0.5em;
 }
 
-
 /*
   JFドットM+12
   http://jikasei.me/font/jf-dotfont/
@@ -413,21 +408,24 @@ ul#list {
 
 @font-face {
   font-family: "JF-Dot-MPlus12";
-  src: url("fonts/JF-Dot-MPlus12.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12.woff") format('woff');
+  src: url("fonts/JF-Dot-MPlus12.woff2") format("woff2"),
+    url("fonts/JF-Dot-MPlus12.woff") format("woff");
 }
 
 /* JIS 第一水準 */
 
 @font-face {
   font-family: "JF-Dot-MPlus12-JIS1";
-  src: url("fonts/JF-Dot-MPlus12-JIS1.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12-JIS1.woff") format('woff');
+  src: url("fonts/JF-Dot-MPlus12-JIS1.woff2") format("woff2"),
+    url("fonts/JF-Dot-MPlus12-JIS1.woff") format("woff");
 }
 
 /* 漢字なし */
 
 @font-face {
   font-family: "JF-Dot-MPlus12-No-Kanji";
-  src: url("fonts/JF-Dot-MPlus12-No-Kanji.woff2") format('woff2'), url("fonts/JF-Dot-MPlus12-No-Kanji.woff") format('woff');
+  src: url("fonts/JF-Dot-MPlus12-No-Kanji.woff2") format("woff2"),
+    url("fonts/JF-Dot-MPlus12-No-Kanji.woff") format("woff");
 }
 
 /*
@@ -444,10 +442,9 @@ ul#list {
   /* 1/12 = 2 dot */
 }
 
-
 /*============================================
   動画
 ============================================*/
 .movie-container > iframe {
-  max-width: 100%;;
+  max-width: 100%;
 }
