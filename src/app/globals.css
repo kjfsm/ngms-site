@@ -5,27 +5,13 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply leading-normal;
-  }
-  a {
-    @apply text-white;
-  }
-  body {
-    @apply bg-black text-white;
-  }
-
-  h1 {
-    @apply text-3xl;
-  }
-
-  h2 {
-    @apply m-2.5 bg-no-repeat text-xl;
-  }
 }
 
 @layer components {
   .font-dot {
     @apply tracking-[0.167em];
   }
+}
+
+@layer utilities {
 }

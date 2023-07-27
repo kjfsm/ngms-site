@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     fontFamily: {
-      dot: ["JF-Dot-MPlus12-No-Kanji"],
+      dot: ["var(--font-dots)"],
     },
     extend: {
       colors: {
