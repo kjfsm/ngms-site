@@ -1,6 +1,6 @@
+import Contents from "@/components/Contents";
 import Image from "next/image";
 import logo from "/public/img/ngms-rogo.png";
-import Contents from "@/components/Contents";
 
 export default function Page() {
   const birthdate = new Date(2013, 10, 17);

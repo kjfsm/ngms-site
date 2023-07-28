@@ -1,7 +1,7 @@
+import Box from "@/components/Box";
+import localFont from "next/font/local";
 import Link from "next/link";
 import "./globals.css";
-import localFont from "next/font/local";
-import Box from "@/components/Box";
 
 const dotFont = localFont({
   src: "../../public/fonts/JF-Dot-MPlus12-No-Kanji.woff2",

@@ -1,7 +1,7 @@
+import Contents from "@/components/Contents";
 import Image from "next/image";
 import Link from "next/link";
 import leaflet9Small from "/public/concert/9th/9th_leaflet_w620.jpg";
-import Contents from "@/components/Contents";
 
 export default function Page() {
   return (

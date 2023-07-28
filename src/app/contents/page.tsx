@@ -1,7 +1,7 @@
-import Image from "next/image";
-import youTubeIcon from "/public/img/youtube_icon.png";
-import Link from "next/link";
 import Contents from "@/components/Contents";
+import Image from "next/image";
+import Link from "next/link";
+import youTubeIcon from "/public/img/youtube_icon.png";
 
 export default function Page() {
   return (

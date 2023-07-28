@@ -1,25 +1,25 @@
-import Image, { StaticImageData } from "next/image";
 import dayjs from "dayjs";
 import ja from "dayjs/locale/ja";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
-import leaflet1Small from "/public/concert/1st/s_first-front.jpg";
-import leaflet1 from "/public/concert/1st/first-front.jpg";
-import leaflet2Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
-import leaflet2 from "/public/concert/2nd/second-front.jpg";
-import leaflet3Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
-import leaflet3 from "/public/concert/1st/first-front.jpg";
-import leaflet4Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
-import leaflet4 from "/public/concert/1st/first-front.jpg";
-import leaflet5Small from "/public/concert/5th/5th_leaflet_front_w440.jpg";
-import leaflet5 from "/public/concert/1st/first-front.jpg";
-import leaflet6Small from "/public/concert/6th/6th_leaflet_front_w440.jpg";
-import leaflet6 from "/public/concert/1st/first-front.jpg";
-import leaflet7Small from "/public/concert/7th/7th_leaflet_front_w440.jpg";
-import leaflet7 from "/public/concert/1st/first-front.jpg";
-import leaflet8Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
-import leaflet8 from "/public/concert/8th/8th_leaflet_front.jpg";
+// import leaflet1Small from "/public/concert/1st/s_first-front.jpg";
+// import leaflet1 from "/public/concert/1st/first-front.jpg";
+// import leaflet2Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
+// import leaflet2 from "/public/concert/2nd/second-front.jpg";
+// import leaflet3Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
+// import leaflet3 from "/public/concert/1st/first-front.jpg";
+// import leaflet4Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
+// import leaflet4 from "/public/concert/1st/first-front.jpg";
+// import leaflet5Small from "/public/concert/5th/5th_leaflet_front_w440.jpg";
+// import leaflet5 from "/public/concert/1st/first-front.jpg";
+// import leaflet6Small from "/public/concert/6th/6th_leaflet_front_w440.jpg";
+// import leaflet6 from "/public/concert/1st/first-front.jpg";
+// import leaflet7Small from "/public/concert/7th/7th_leaflet_front_w440.jpg";
+// import leaflet7 from "/public/concert/1st/first-front.jpg";
 import Contents from "@/components/Contents";
+import leaflet8 from "/public/concert/8th/8th_leaflet_front.jpg";
+import leaflet8Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
 
 dayjs.locale(ja);
 
