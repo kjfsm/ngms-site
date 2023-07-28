@@ -1,10 +1,9 @@
+import Contents from "@/components/Contents";
 import Link from "next/link";
 
 export default function Page() {
   return (
-    <>
-      <h2>お問い合わせ</h2>
-      <hr />
+    <Contents title="お問い合わせ">
       <h3>【編成】</h3>
       <p>ヴァイオリン、ヴィオラ、チェロ、コントラバス</p>
       <h3>【活動拠点】</h3>
@@ -37,9 +36,11 @@ export default function Page() {
       <p>アドレス： ngmstring@gmail.com</p>
       <p>【Twitter公式アカウント】</p>
       <p>
-        <Link href="https://twitter.com/ngm_strings">@ngm_strings</Link>
+        <Link href="https://twitter.com/ngm_strings" className="underline">
+          @ngm_strings
+        </Link>
       </p>
       <h3>来たれ、ゲーム音楽愛好家！</h3>
-    </>
+    </Contents>
   );
 }

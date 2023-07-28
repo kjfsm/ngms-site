@@ -4,6 +4,8 @@ interface ContentsProps {
   children: React.ReactNode;
 }
 
+// トップページのコンテンツを表示するためのコンポーネントです。
+// title にはコンテンツのタイトルを、children にはコンテンツの内容を入れてください。
 const Contents = ({ className, title, children }: ContentsProps) => {
   return (
     <div className={`flex flex-col gap-y-3 ${className}`}>

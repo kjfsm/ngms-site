@@ -9,6 +9,8 @@ const dotFont = localFont({
   variable: "--font-dot",
 });
 
+// すべてのページで共通するレイアウトです。
+// children には各ページのコンテンツが入ります。
 export default function RootLayout({
   children,
 }: {
@@ -27,14 +29,16 @@ export default function RootLayout({
           <Link href="./">
             <Box className="px-3">
               <h1
-                className={`text-3xl font-bold tracking-widest ${dotFont.className}`}
+                className={`text-2xl font-bold tracking-widest md:text-3xl ${dotFont.className}`}
               >
                 Nagoya Game Music Strings
               </h1>
             </Box>
           </Link>
 
-          <ul className="flex flex-row gap-x-2 max-md:flex-col max-md:rounded-lg max-md:border-4 max-md:bg-origin-blue/70 max-md:px-2 max-md:py-2">
+          <ul className="flex flex-col rounded-lg border-4 bg-origin-blue/70 px-2 py-2 md:flex-row md:gap-x-2 md:border-none md:bg-transparent md:p-0">
+            {/* 画面幅がmd以上のとき、md:～ が有効になります */}
+            {/* 画面幅が狭いときはメニューの項目を縦に表示し、広いときは横に表示する */}
             {[
               ["トップ", "/"],
               ["NGMSって？", "/about"],
@@ -49,7 +53,7 @@ export default function RootLayout({
                     className={`font-bold tracking-widest ${dotFont.className}`}
                   >
                     <div
-                      className={`md:text-center md:rounded-lg md:border-4 md:bg-origin-blue/70 md:px-2 md:py-2`}
+                      className={`md:rounded-lg md:border-4 md:bg-origin-blue/70 md:px-2 md:py-2 md:text-center`}
                     >
                       {title}
                     </div>

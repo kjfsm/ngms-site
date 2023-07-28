@@ -19,6 +19,7 @@ import leaflet7Small from "/public/concert/7th/7th_leaflet_front_w440.jpg";
 import leaflet7 from "/public/concert/1st/first-front.jpg";
 import leaflet8Small from "/public/concert/8th/8th_leaflet_front_w440.jpg";
 import leaflet8 from "/public/concert/8th/8th_leaflet_front.jpg";
+import Contents from "@/components/Contents";
 
 dayjs.locale(ja);
 
@@ -60,18 +61,11 @@ export default function Page() {
     },
   ];
   return (
-    <>
-      <h2>過去の演奏会情報</h2>
-
+    <Contents title="過去の演奏会情報">
       {concertInfoList.reverse().map((concertInfo, index) => {
-        return (
-          <>
-            <hr />
-            <ConsertInfo concertInfo={concertInfo} />
-          </>
-        );
+        return <ConsertInfo key={index} concertInfo={concertInfo} />;
       })}
-    </>
+    </Contents>
   );
 }
 
@@ -80,15 +74,15 @@ const ConsertInfo = (props: ConcertInfoProps) => {
     <>
       <hr />
       <h3>{`第${props.concertInfo.concertNumber}回演奏会`}</h3>
-      <div className="row">
-        <div className="col-sm">
+      <div className="flex flex-row">
+        <div>
           <Leaflet
             thumbnailSrc={props.concertInfo.thumbnailLeafletSrc}
             originalSrc={props.concertInfo.originalLeafletSrc}
             concertNumber={props.concertInfo.concertNumber}
           />
         </div>
-        <div className="col-sm flex-grow-1">
+        <div className="grow">
           <p>大盛況でした！</p>
           <p>ご来場ありがとうございました！</p>
           <p>

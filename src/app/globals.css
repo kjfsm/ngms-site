@@ -8,9 +8,6 @@
 }
 
 @layer components {
-  .font-dot {
-    @apply tracking-[0.167em];
-  }
 }
 
 @layer utilities {

@@ -1,12 +1,11 @@
 import Image from "next/image";
 import youTubeIcon from "/public/img/youtube_icon.png";
 import Link from "next/link";
+import Contents from "@/components/Contents";
 
 export default function Page() {
   return (
-    <>
-      <h2>演奏動画</h2>
-      <hr />
+    <Contents title="演奏動画">
       <h3>
         第1回演奏会より 弦楽四重奏と弦楽合奏のための交響的連曲
         艦隊これくしょん-艦これ-
@@ -41,6 +40,6 @@ export default function Page() {
         />
         NGMSのYoutubeチャンネルはこちら！！
       </Link>
-    </>
+    </Contents>
   );
 }
