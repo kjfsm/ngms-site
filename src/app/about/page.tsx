@@ -1,4 +1,4 @@
-import Contents from "@/components/Contents";
+import Content from "@/components/Content";
 import Image from "next/image";
 import logo from "/public/img/ngms-rogo.png";
 
@@ -9,13 +9,13 @@ export default function Page() {
 
   return (
     <>
-      <Contents title="楽団紹介">
+      <Content title="楽団紹介">
         <div className="flex flex-col md:flex-row">
           <div>
             <Image src={logo} alt="NGMS ロゴ" height="135" width="135" />
           </div>
           <div className="grow">
-            <h3>NGMS（名古屋ゲームミュージックストリングス）</h3>
+            <h4>NGMS（名古屋ゲームミュージックストリングス）</h4>
             <p>ゲーム音楽専門の弦楽合奏団体</p>
             <p>{`LV ${age}`}</p>
             <p>主な生息地&emsp;主に名古屋市内（現状は大高、中川、瑞穂など）</p>
@@ -30,9 +30,9 @@ export default function Page() {
             NGME（名古屋ゲームミュージックアンサンブル）という&emsp;吹奏楽団の姉妹団体を持っている。
           </p>
           <p>現在、同じ志を持った仲間を募集している。</p>
-          <h3>来たれ、ゲーム音楽愛好家！</h3>
+          <p className="text-xl">来たれ、ゲーム音楽愛好家！</p>
         </div>
-      </Contents>
+      </Content>
     </>
   );
 }

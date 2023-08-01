@@ -5,6 +5,27 @@
 @tailwind utilities;
 
 @layer base {
+  .font-dot {
+    @apply font-bold tracking-widest;
+  }
+  .box-blue {
+    @apply rounded-lg border-4 bg-origin-blue/70 px-2 py-2;
+  }
+  p {
+    @apply mb-2;
+  }
+  h2 {
+    @apply mb-2 text-3xl;
+  }
+  h3 {
+    @apply mb-2 text-4xl;
+  }
+  h4 {
+    @apply mb-2 text-xl font-bold;
+  }
+  hr {
+    @apply my-2;
+  }
 }
 
 @layer components {

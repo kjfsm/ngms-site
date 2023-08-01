@@ -7,5 +7,19 @@
   },
   "specs": {
     "\\.[jt]sx$": "@markuplint/react-spec"
-  }
+  },
+  "pretenders": [
+    {
+      "selector": "Link",
+      "as": "a"
+    },
+    {
+      "selector": "Image",
+      "as": "img"
+    },
+    {
+      "selector": "Article",
+      "as": "article"
+    }
+  ]
 }
