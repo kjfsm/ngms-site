@@ -18,7 +18,7 @@
     @apply mb-2 text-3xl;
   }
   h3 {
-    @apply mb-2 text-4xl;
+    @apply mb-2 text-2xl;
   }
   h4 {
     @apply mb-2 text-xl font-bold;

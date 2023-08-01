@@ -205,7 +205,7 @@ const ConsertInfo = (props: ConcertInfoProps) => {
             {props.concertInfo.startTime}
           </p>
           <p>会場：{props.concertInfo.location}</p>
-          <h4>演奏曲目</h4>
+          <div className="font-bold">演奏曲目</div>
           <ul className="list-disc list-inside my-2">
             {props.concertInfo.programs.map((title, index) => {
               return <li key={index}>{title}</li>;

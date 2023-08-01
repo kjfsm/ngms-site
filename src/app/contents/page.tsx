@@ -1,26 +1,33 @@
-import Contents from "@/components/Contents";
+import Content from "@/components/Content";
 import Image from "next/image";
 import Link from "next/link";
 import youTubeIcon from "/public/img/youtube_icon.png";
 
 export default function Page() {
   return (
-    <Contents title="演奏動画">
+    <Content title="演奏動画">
       <h3>
         第1回演奏会より 弦楽四重奏と弦楽合奏のための交響的連曲
         艦隊これくしょん-艦これ-
       </h3>
       <p>
         <iframe
+          title="niconico player"
+          loading="lazy"
           width="312"
-          height="230"
-          className="nicovideo"
-          src="http://ext.nicovideo.jp/thumb/sm26640675"
+          height="200"
+          src="https://ext.nicovideo.jp/thumb/sm26640675"
+          className="border-1 border-gray-500"
         />
+      </p>
+      <p>
         <iframe
           width="312"
-          height="230"
-          src="https://www.youtube.com/embed/5rjnOYXPbBc?rel=0"
+          height="200"
+          loading="lazy"
+          src="https://www.youtube.com/embed/5rjnOYXPbBc"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
       </p>
@@ -30,7 +37,7 @@ export default function Page() {
       </p>
       <Link
         href="https://www.youtube.com/channel/UCtvsgRO3JZWzPmJn1m6XJYg"
-        passHref
+        className="underline"
       >
         <Image
           src={youTubeIcon}
@@ -40,6 +47,6 @@ export default function Page() {
         />
         NGMSのYoutubeチャンネルはこちら！！
       </Link>
-    </Contents>
+    </Content>
   );
 }

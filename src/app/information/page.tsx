@@ -1,9 +1,9 @@
-import Contents from "@/components/Contents";
+import Content from "@/components/Content";
 import Link from "next/link";
 
 export default function Page() {
   return (
-    <Contents title="お問い合わせ">
+    <Content title="お問い合わせ">
       <h3>【編成】</h3>
       <p>ヴァイオリン、ヴィオラ、チェロ、コントラバス</p>
       <h3>【活動拠点】</h3>
@@ -40,7 +40,7 @@ export default function Page() {
           @ngm_strings
         </Link>
       </p>
-      <h3>来たれ、ゲーム音楽愛好家！</h3>
-    </Contents>
+      <div className="font-bold">来たれ、ゲーム音楽愛好家！</div>
+    </Content>
   );
 }
